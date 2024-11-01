@@ -1,0 +1,45 @@
+.w2cloud-general__info-area {
+
+    .w2cloud-general__checkbox {
+        position: relative;
+        padding: 40px  30px;
+
+        label {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        h6 {
+            padding-bottom: 20px;
+        }
+        p {
+            padding: 20px 0px 0px 35px;
+        }
+
+        .w2cloud__uppercase {
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+    }
+
+    .w2cloud-general__replaces {
+        padding: 40px 30px;
+        background-color: #f5f6fa;
+
+        h6 {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .w2cloud-general__select {
+            padding: 20px 0px;
+        }
+    }
+    .w2cloud__button--border {
+        border-top: 1px solid rgb(225, 229, 238);
+        padding: 20px 30px;
+        .area-design {
+            display: block;
+            margin: auto 0px 0px auto;
+        }
+    }
+
+}

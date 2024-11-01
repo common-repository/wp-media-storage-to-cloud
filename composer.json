@@ -1,0 +1,12 @@
+{
+    "require": {
+        "philipnewcomer/wp-ajax-helper": "^1.0",
+        "google/cloud-storage": "^1.16",
+        "wp-cli/wp-config-transformer": "^1.2",
+        "aws/aws-sdk-php": "^3.130",
+        "appsero/client": "^1.1"
+    },
+    "autoload": {
+        "classmap": ["admin/"]
+    }
+}

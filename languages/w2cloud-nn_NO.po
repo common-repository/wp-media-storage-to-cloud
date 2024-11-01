@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Storage to Cloud\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-17 05:59+0000\n"
+"PO-Revision-Date: 2020-01-22 09:59+0000\n"
+"Last-Translator: devadmin <farshid@coderex.co>\n"
+"Language-Team: Norwegian (Nynorsk)\n"
+"Language: nn_NO\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: admin/views/modules/media-library-template/template.php:42
+#: admin/views/modules/media-library-template/template.php:61
+msgid "Coming Soon"
+msgstr "Kommer snart"
+
+#: admin/views/modules/aws-media-offload/template.php:19
+#: admin/views/modules/gcs-media-offload/template.php:18
+msgid "Do not realod or close this tab. It may take few minutes."
+msgstr ""
+"Ikke last inn eller lukk denne fanen på nytt. Det kan ta noen minutter."
+
+#. Author URI of the plugin
+msgid "https://rextheme.com"
+msgstr "https://rextheme.com"
+
+#. URI of the plugin
+msgid "https://rextheme.com/wp-media-storage-to-cloud/"
+msgstr "https://rextheme.com/wp-media-storage-to-cloud/"
+
+#: admin/views/modules/settings/template.php:43
+msgid ""
+"If you upload a new file on your media library, It will sync automactically "
+"to your active storage."
+msgstr ""
+"Hvis du laster opp en ny fil i mediebiblioteket ditt, synkroniseres den "
+"automatisk til den aktive lagringsplassen."
+
+#: admin/views/modules/settings/template.php:57
+msgid ""
+"Media file will be removed from the bucket if you delete a media permanently "
+"from your media library."
+msgstr ""
+"Mediefilen blir fjernet fra bøtta hvis du sletter et media permanent fra "
+"mediebiblioteket."
+
+#: admin/views/modules/settings/template.php:29
+msgid ""
+"Media files all over the site will be served from the storage bucket. Before,"
+" you have to sync all your media files to your bucket. Unsynced media's will "
+"be served from media library."
+msgstr ""
+"Mediefiler over hele nettstedet vil bli servert fra lagringsbøtten. Før må "
+"du synkronisere alle mediefilene til bøtta. Usynkroniserte medier blir "
+"servert fra mediebiblioteket."
+
+#. Name of the plugin
+msgid "Media Storage to Cloud"
+msgstr "Media Storage to Cloud"
+
+#: admin/views/modules/amazon-s3/template.php:35
+#: admin/views/modules/google-cloud-storage/template.php:31
+msgid "Ready to sync"
+msgstr "Klar til å synkronisere"
+
+#: admin/views/modules/amazon-s3/template.php:4
+#: admin/views/modules/google-cloud-storage/template.php:4
+msgid "Reauthorize"
+msgstr "autorisere"
+
+#. Author of the plugin
+msgid "RexTheme"
+msgstr "RexTheme"
+
+#: admin/views/modules/amazon-s3/template.php:35
+#: admin/views/modules/google-cloud-storage/template.php:31
+#: admin/views/modules/settings/template.php:65
+msgid "Save"
+msgstr "Lagre"
+
+#: admin/views/modules/aws-media-offload/template.php:26
+msgid "Save auth info to sync media on Amazon S3"
+msgstr "Lagre autorisasjonsinfo for å synkronisere medier på Amazon S3"
+
+#: admin/views/modules/gcs-media-offload/template.php:26
+msgid "Save auth info to sync media on Google Cloud Storage"
+msgstr ""
+"Lagre autorisasjonsinfo for å synkronisere medier på Google Cloud Storage"
+
+#: admin/views/modules/aws-media-offload/template.php:19
+#: admin/views/modules/gcs-media-offload/template.php:18
+msgid "Sync"
+msgstr "Sync"
+
+#. Description of the plugin
+msgid ""
+"Upload and serve your WordPress media from Amazon S3 & Google Cloud Storage. "
+"Boosts site performance and simplifies workflows."
+msgstr ""
+"Last opp og server WordPress-media fra Amazon S3 og Google Cloud Storage. "
+"Øker ytelsen på nettstedet og forenkler arbeidsflyt."
+
+#: admin/class-w2cloud-admin.php:163
+msgid "w2cloud"
+msgstr "w2cloud"
+
+#: admin/class-w2cloud-admin.php:163
+msgid "WP Cloud"
+msgstr "WP Cloud"

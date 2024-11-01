@@ -1,0 +1,133 @@
+.w2cloud__cloud--sync {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(169,174,195,.1);
+    .w2cloud__cloud-sync-content {
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(225, 229, 238);
+
+        .sync__media {
+            justify-content: space-between;
+            align-items: baseline;
+            padding-bottom: 10px;
+        }
+
+        .w2cloud-general__select-area {
+            padding: 35px 0px;
+            display: flex;
+            align-items: center;
+            p {
+                font-weight: 500;
+                padding-right: 44px;
+            }
+        }
+        .w2cloud__error-requests {
+            text-align: right;
+            color:red;
+            padding: 10px;
+        }
+        .w2cloud__error {
+            text-align: center;
+            color:red;
+            padding: 20px;
+        }
+        .app-gcs-sync {
+            padding: 20px 30px;
+        }
+    }
+    .card-header {
+        padding: 0px;
+        margin-bottom: 0;
+        background-color: rgba(0,0,0,0);
+        border-bottom: 0px;
+      .card-header-pills {
+          margin-right: 0;
+          margin-left: 0;
+        }
+    }
+
+    .nav {
+        padding: 25px 30px 0px;
+        border-bottom: 1px solid #e1e5ee;
+    }
+    .nav-item {
+        margin: 0px 18px;
+
+        &:first-child {
+            margin: 0px 18px 0px 0px;
+        }
+        .nav-link {
+            position: relative;
+            font-size: 15px;
+            font-weight: 500;
+            color:#8c9fbe;
+            padding: 0 0 20px;
+
+            span {
+                padding-right: 20px;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                left: 50%;
+                bottom: 0;
+                background-color: #4ac49e;
+                transition: all ease-in-out .2s;
+            }
+            &:before {
+                opacity: 0;
+                visibility: hidden;
+            }
+            &:hover {
+                background-color:#fff;
+                color: #3c4863;
+            }
+            &.active {
+                background-color:#fff;
+                color: #3c4863;
+                &:before {
+                    opacity: 1;
+                    visibility: visible;
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .w2cloud__button--border {
+        padding: 20px 30px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        .area-design {
+            display: block;
+            margin: auto 0px 0px auto;
+        }
+    }
+}
+
+.w2cloud__sync-navbar .w2cloud__cloud--sync select {
+    background: transparent url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
+    color: #32373c;
+    height: 50px;
+    padding: 10px 14px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+.w2cloud__sync-navbar .w2cloud__cloud--sync > span {
+    margin-left: 30px;
+    font-weight: 500;
+}
+.w2cloud__sync-navbar .w2cloud__cloud--sync select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.w2cloud__sync-navbar .w2cloud_select_sync_option {
+  padding-left: 30px;
+}

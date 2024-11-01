@@ -1,0 +1,94 @@
+.w2cloud-setting__storage {
+    .w2cloud-setting__body {
+        padding: 32px 30px 20px;
+        max-width: 940px;
+        .w2cloud-setting__input {
+            label {
+                font-weight: 500;
+                padding-bottom: 10px;
+            }
+            p {
+                padding-top: 10px;
+            }
+            margin-bottom: 30px;
+            textarea {
+                height: 240px;
+            }
+        }
+
+        .w2cloud-file__double-switcher {
+            display: flex;
+            margin-bottom: 40px;
+            .w2cloud-file__single-switcher {
+                width: 50%;
+                &:nth-child(odd) {
+                    padding-right: 22px;
+                }
+                &:nth-child(even) {
+                    padding-left: 22px;
+                }
+                .title {
+                    font-weight: 600;
+                    display: block;
+                    padding-bottom: 12px;
+
+                }
+
+                p {
+                    padding-top: 14px;
+                }
+            }
+        }
+    }
+    .w2cloud-setting__control-area {
+        .w2cloud-setting__input {
+            max-width: 880px;
+            p {
+                padding-top: 10px;
+            }
+
+        }
+        background-color:#f5f6fa;
+        padding: 40px 30px;
+        label {
+            font-weight: 500;
+            padding-bottom: 20px;
+        }
+        .w2cloud-setting__switcher-area {
+            padding-top:35px;
+
+            .title {
+                font-weight: 600;
+                padding-bottom: 20px;
+                display: block;
+            }
+            p {
+                padding-top: 14px;
+            }
+        }
+    }
+
+    .w2cloud-file__footer {
+        border-top: 1px solid rgb(225, 229, 238);
+        padding: 20px 30px;
+        .area-design {
+            display: block;
+            margin: auto 0px 0px auto;
+        }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1399px){
+
+    .w2cloud-setting__storage {
+        .w2cloud-setting__body {
+            .w2cloud-setting__input {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+}

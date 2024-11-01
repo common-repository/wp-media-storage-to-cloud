@@ -1,0 +1,54 @@
+.w2cloud__amazon-storage {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px 0px rgba(169, 174, 195, 0.1);
+    form {
+        max-width: 700px;
+        margin: 0 40px;
+        padding-top:40px;
+    }
+
+    .w2cloud__cloud--checkbox {
+        font-size: 16px;
+        font-weight: 500;
+        position: relative;
+        padding: 30px;
+
+        .custom-control.custom-checkbox {
+            padding-bottom: 20px;
+        }
+        p {
+            padding: 20px 0px 0px 35px;
+        }
+
+        .w2cloud_amazon-radio {
+            display: block;
+        }
+        .w2cloud__read-more {
+            font-weight: 500;
+            color:#0058fb;
+            text-transform: uppercase;
+        }
+    }
+    .w2cloud__title--top {
+        border-bottom: 1px solid rgb(225, 229, 238);
+        padding: 20px 30px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .w2cloud__button--border {
+        border-top: 1px solid rgb(225, 229, 238);
+        padding: 20px 30px;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        .area-design.btn-primary {
+            display: block;
+            margin: auto 0px 0px auto;
+        }
+    }
+
+}

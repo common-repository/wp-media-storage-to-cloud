@@ -1,0 +1,24 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+  // wp-media-storage cloud
+
+  @import 'variable';
+  @import 'mixin';
+  @import 'default-style';
+  @import 'dashboard';
+  @import 'w2cloud-cloud-storage';
+  @import 'w2cloud-amazon';
+  @import 'sync';
+  @import 'media-library';
+  @import 'w2cloud-compatibility';
+  @import 'w2cloud-support';
+  @import 'w2cloud-setting';
+  @import 'w2cloud-file-url';
+  @import 'w2cloud-general-info';
+  @import 'w2cloud-cloud-setting-storage';
+  @import 'syncs-template';
+  @import 'setup-wizard';
+
+
+

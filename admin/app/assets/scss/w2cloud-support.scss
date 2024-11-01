@@ -1,0 +1,105 @@
+.w2cloud__support-area {
+    border-radius: 10px;
+    background-color:#fff;
+    box-shadow: 0px 5px 10px 0px rgba(169, 174, 195, 0.1);
+
+    .w2cloud__support-header {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: #dbf3ec;
+        padding: 50px 30px;
+        h5 {
+            font-weight: 500;
+            padding-bottom: 20px;
+        }
+    }
+
+   .w2cloud__support-body {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 100px 40px;
+    .w2cloud_input-field {
+        width: 50%;
+        margin-bottom: 30px;
+        position: relative;
+        label {
+            margin-bottom: 18px;
+        }
+        p {
+            padding-top: 16px;
+        }
+        &:nth-child(odd) {
+            padding-right: 22px;
+        }
+        &:nth-child(even) {
+            padding-left: 22px;
+        }
+
+        textarea {
+            height: 161px;
+        }
+        .required {
+            &:after {
+                content: "*";
+                color: #4ac49e;
+            }
+        }
+    }
+   }
+   .w2cloud__support-footer {
+        border-top: 1px solid rgb(225, 229, 238);
+        padding: 20px 30px;
+        .area-design {
+            display: block;
+            margin: auto 0px 0px auto;
+        }
+   }
+}
+
+
+
+@media only screen and (max-width: 1399px){
+
+    .w2cloud__support-area {
+        .w2cloud__support-header {
+            padding: 40px 25px;
+        }
+        .w2cloud__support-body {
+            padding: 30px 25px;
+            .w2cloud_input-field {
+                margin-bottom: 25px;
+                &:nth-child(odd) {
+                    padding-right: 10px;
+                }
+                &:nth-child(even) {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1199px){
+
+    .w2cloud__support-area {
+
+        .w2cloud__support-body {
+            padding: 30px 25px;
+            .w2cloud_input-field {
+                width: 100%;
+                margin-bottom: 25px;
+                &:nth-child(odd) {
+                    padding-right: 0px;
+                }
+                &:nth-child(even) {
+                    padding-left: 0px;
+                }
+                textarea {
+                    height: 100px;
+                }
+
+            }
+        }
+    }
+}

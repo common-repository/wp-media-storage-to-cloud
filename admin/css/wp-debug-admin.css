@@ -1,0 +1,35 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .debug-log-container {
+   width: 70%;
+   margin: 0 auto;
+ }
+ .debug-log-header {
+   text-align: center;
+   font-size: 50px;
+ }
+ .debug-log-body-container {
+   width: 100%;
+   background: #016087;
+   height: 800px;
+   color: #fff;
+   overflow-y: scroll;
+   border-radius: 10px;
+ }
+ .wp_debug_button {
+    background-color: #007cba;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+ }
+ .debug-log-button_container {
+    margin: 5px auto;
+ }
